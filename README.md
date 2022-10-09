@@ -1,5 +1,7 @@
 # Auto Import Test Repo
 
+> Test in Windows 10 Vscode.
+
 1. Run `pnpm run tsc`, then a type error will occur.
 
 2. Edit `declare module '@vue/runtime-core'` to `declare module 'vue'` in `auto-imports.d.ts` and run `pnpm run tsc` again, no error occurs.
